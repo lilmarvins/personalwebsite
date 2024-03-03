@@ -6,6 +6,8 @@
 	<title>Marvins</title>
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		
+
 
 
 
@@ -93,14 +95,14 @@
 		 		color: whitesmoke;
 		 		text-align: center;
 		 		position: relative;
-		 		top:180px;
+		 		top:130px;
 		 		font-size: 50px;
 		 	}
 		 	.bgparent2 p {
 		 		color: whitesmoke;
 		 		text-align: center;
 		 		position: relative;
-		 		top:200px;
+		 		top:140px;
 		 		font-size: 20px;
 		 	}
 		 	.wrapper{
@@ -152,7 +154,7 @@
 		 	.box3 h1{
 		 		font-family:Courier New monospace ;
 		 		color: whitesmoke;
-		 		background-color: #EF3054;
+		 		background-color: #EF3054 ;
 		 		min-height: 100px;
 		 	}
 		 	.box4 h1{
@@ -204,6 +206,15 @@
 		 	}
 		 	.contact .img2{
 		 		margin-top: -70px;
+		 	}
+
+		 	.img3{
+		 		width: 300px;
+		 		height: 300px;
+		 		border-radius: 250px;
+		 		position: relative;
+		 		top: 90px;
+		 		left: 230px;
 		 	}
 		 	.one2 img{
 		 		width: 25px;
@@ -270,6 +281,44 @@
 		transform: translate();
 	}
 }
+	.arrow{
+/*		border: 2px solid black;*/
+		width: 50px;
+		height: 30px;
+		position: fixed;
+		bottom: 100px;
+		left: 1100px;
+/*		background-color: whitesmoke;*/
+
+	}
+
+
+	.arrow:hover{
+		 border:2px solid dimgray;
+		color:black;
+		background-color: rgba(0, 0, 0, 0.3);
+		cursor: pointer;
+		box-shadow: 2px 2px  7px gray, 2px 2px  6px lightblue ;
+
+
+		@keyframes slide-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+    filter: blur(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+  }
+}
+.animate-card {
+  animation: auto linear slide-from-left both;
+  animation-timeline: view();
+  animation-range: entry 25% cover 50%;
+}
+
 
 
 	</style>
@@ -281,15 +330,16 @@
 		<div class="row parent ">
 			<div class="row parent2 ">
 			
-			
+					
 					<div class="col-md-12 ">
-						<div><h4 class="words word2" id="home">Hi there, my name is </h4></div>
-						<h1  class="words"> ENUJEKOR</h1>
+
+						<div><h4 class="words word2 animate-card" id="home" >Hi there, my name is </h4></div>
+						<h1  class="words" id="arrow"> ENUJEKOR</h1>
 						<h1 class="words ">MARVELLOUS </h1>
 						
 
-						<p class="word2">and i work with<span class="span"> computer engineering</span></p>
-						 <p class="word2">and website development </p>
+						<p class="word2" >And i work with<span class="span"> computer engineering</span></p>
+						 <p class="word2">And website development </p>
 					</div>
 				
 			</div>
@@ -320,7 +370,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12 aboutparent fade-in">
+			<div class="col-md-12 aboutparent fade-in ">
 				<h1 id="aboutus" class="about "> About Me </h1>
 				<p>I’m a passionate web designer with a keen eye for aesthetics and functionality. With a foundation in both design principles and cutting-edge technologies, I strive to create visually appealing and user-friendly websites. My journey began with a deep interest in graphic design, evolving into a dynamic skill set that encompasses UI/UX design, front-end development, and a commitment to staying abreast of industry trends.</p>
 
@@ -345,6 +395,7 @@
 
 			<h1>Marvins Web Development</h1>
 			<p>We Give You The Very Best Service In The History Of Web Development And Web Services</p>
+				<div class="img3"><img src="body.jpg" class="img3"></div>
 				</div>
 			
 		</div>
@@ -358,8 +409,8 @@
 
 				
 				
-					<div class=" item rounded box">
-						<div><h1 class="rounded-top">knowledge</h1></div>
+					<div class=" item rounded box" >
+						<div><h1 class="rounded-top">Knowledge</h1></div>
 						<div>
 						<ul> <li>I possess a comprehensive knowledge of programming languages,
 						including proficiency in HTML, CSS, JavaScript, and Python. </li>
@@ -368,15 +419,15 @@
 					</div>
 
 					<div class=" item rounded box2">
-						<div><h1 class="rounded-top">full stack developer</h1></div>
+						<div><h1 class="rounded-top">Full Stack Developer</h1></div>
 						<div>
-						<ul> <li>I learned fullstack development in less than 3 month and have surpassed 
-						my abilities to an extreme level </li>
+						<ul> <li>I Learned Fullstack development In Less Than 3 Month And Have Surpassed 
+						My abilities To A Certain Level </li>
 						</ul>
 						</div>
 					</div>
 					<div class=" item rounded box3">
-						<div><h1 class="rounded-top">schooled at moat</h1></div>
+						<div><h1 class="rounded-top">Schooled At Moat</h1></div>
 						<div>
 						<ul> <li>I studied web development in moat academy for three month and i was able to do the best i can during the cohort </li>
 						</ul>
@@ -384,7 +435,7 @@
 						
 					</div>
 					<div class=" item rounded box4"> 
-					<div><h1 class="rounded-top">senior developer</h1></div>
+					<div><h1 class="rounded-top">Senior Developer</h1></div>
 					<div>
 						<ul> <li>Im a highly experienced senior developer i have gone through severe training and experties </li>
 						</ul>
@@ -393,10 +444,10 @@
 					
 			</div>
 		</div>
-		<div class="row contact">
-			<div class="cnt2 cnt3"><h1 id="Contact" class="cnt2 cnt4" >Contact</h1></div>
-			<div class="col-md-6 cntparent ">
-						<div class="img2"><img src="body.jpg"></div>
+		<div class="row contact ">
+			<div class="cnt2 cnt3 "><h1 id="Contact" class="cnt2 cnt4" >Contact</h1></div>
+			<div class="col-md-6 cntparent " >
+						<div class="img2 "><img src="body.jpg"></div>
 				<h1 class="cnt2">Enujekor Marvellous</h1>
 				<p class="cnt2">Thanks for visiting! Send a connection request on instagram or let's connect on twitter </p>
 				<div class="cnt2 one2"><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Foficial_marvins" class="btn btn-outline-dark"><img src="twitter.png" alt="icon of twitter" class="facebook"> twiter</a></div>
@@ -501,6 +552,12 @@
 				</div>
 			</div>
 		
+			<div class="row ">
+				<div class="col-2 arrow">
+				<a href="#arrow">	<img src="up-arrows.png"></a>
+				</div>
+			</div>
+
 	</div>
 
 	
