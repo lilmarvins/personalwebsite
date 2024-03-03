@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Marvins</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+
+
+		<style type="text/css">
+
+		*{	padding: 0px;
+			margin: 0px;
+			box-sizing: border-box;
+			
+		
+			
+	}
+	body{
+		background-color: whitesmoke;
+	}
+	.parent{background-image:url("banner.jpg");
+		 background-attachment: fixed;
+		 background-repeat: cover;
+		 min-height: 600px;
+		
+		 
+		 	}
+		 	.parent2{
+		 		background-color: rgba(0, 0, 0, 0.5);
+		 		 
+		 	}
+		 	img{
+		 		height: 100%;
+		 	}
+		 	
+		 	
+		 	.words{	color: whitesmoke;
+		 		text-align: center;
+		 		font-size: 90px;
+		 		font-family: Courier New monospace;
+		 		font-weight: bold;
+		 	}
+		 	.word2{
+		 		font-size: 25px;
+		 		text-align: center;
+		 	color:#276FBF;
+		 		font-family: Courier New monospace;
+		 		font-weight: bold;
+
+		 	}
+		 	p{
+		 		
+		 	}
+		 	.span{
+		 		color:whitesmoke;
+
+		 	}
+		 	.bar{
+		 		color: black;
+		 		font-weight: bolder;
+		 		font-size: 20px;
+		 		padding: 20px;
+		 	}
+		 	.barparent{
+		 		min-height: 60px;
+		 		
+		 	}
+		 	.barcontainer{
+		 		box-shadow: 2px 2px 7px lightgray, 2px 2px 6px lightblue ;
+		 	}
+		 	.about{
+		 		font-family: arial;
+		 		text-align: center;
+		 		padding: 60px;
+		 		font-size: 70px;
+		 	}
+		 	.aboutparent{
+		 		text-align: center;
+		 	}
+		 	.bg2{
+		 		background-image:url("circle.jpg");
+		 background-attachment: fixed;
+		 background-repeat: cover;
+		 min-height: 600px;
+		 	}
+		 	.bgparent2{
+		 		background-color: rgba(0, 0, 0, 0.5);
+		 	}
+		 	.bgparent2 h1 {
+		 		color: whitesmoke;
+		 		text-align: center;
+		 		position: relative;
+		 		top:180px;
+		 		font-size: 50px;
+		 	}
+		 	.bgparent2 p {
+		 		color: whitesmoke;
+		 		text-align: center;
+		 		position: relative;
+		 		top:200px;
+		 		font-size: 20px;
+		 	}
+		 	.wrapper{
+		 		min-height: 400px;
+		 		
+		 		overflow-x:auto !important;
+		 		display: flex;
+		 	}
+		 	.wrapper::-webkit-scrollbar{
+		 		width: 0;
+		 		height: 0px;
+		 	}
+		 	.wrapper .item{
+		 		min-width:500px ;
+		 		height: 500px;
+		 		line-height: 110px;
+		 		text-align: center;
+		 		background-color: whitesmoke;
+		 		margin-right: 30px ;
+		 		margin: 10px;
+		 		box-shadow: 2px 2px  7px gray, 2px 2px  6px lightblue ;
+
+		 	.wrapper .item:hover{
+		 		border:2px solid blue;
+		color:black;
+		background-color: rgba(0, 0, 0, 0.5);
+		cursor: pointer;
+		transform: translateY(-10px);
+		
+		 	}
+
+
+
+
+		 		 
+		 	}
+		 	.box h1{
+		 		font-family:Courier New monospace ;
+		 		color: whitesmoke;
+		 		background-color: #7DBA84;
+		 		min-height: 100px;
+		 	}
+		 	.box2 h1{
+		 		font-family:Courier New monospace ;
+		 		color: whitesmoke;
+		 		background-color: #5B2A86;
+		 		min-height: 100px;
+		 	}
+		 	.box3 h1{
+		 		font-family:Courier New monospace ;
+		 		color: whitesmoke;
+		 		background-color: #EF3054;
+		 		min-height: 100px;
+		 	}
+		 	.box4 h1{
+		 		font-family:Courier New monospace ;
+		 		color: whitesmoke;
+		 		background-color: #6B0504;
+		 		min-height: 100px;}
+		 	.box3 p{
+		 			padding:0px;
+		 			margin: 0px;
+		 		}
+		 	.exp{
+		 			padding: 20px;
+		 			text-align: center;
+		 		}
+		 	.stripe{
+		 		padding: 30px;
+		 	}
+		 	.contact{
+		 		display: flex;
+		 		border:2px solid white;
+				justify-content:center;
+				align-items:center;
+				flex-direction:column;
+				flex:end;
+				min-height: 1000px;
+				text-align: center;
+
+		 	}
+		 	.cnt2{
+		 		font-family:Courier New monospace;
+		 		padding: 30px;
+
+		 	}
+		 	.contact img{
+		 		width:150px;
+		 		height: 150px;
+		 		border-radius: 100px;
+		 		
+		 	}
+		 	.cnt3{
+		 		min-height: 200px;
+		 		margin-top: -100px;
+		 	}
+		 	.cnt4{
+		 		font-family:Courier New monospace;
+		 		font-weight: bold;
+		 		font-size: 50px;
+		 	}
+		 	.contact .img2{
+		 		margin-top: -70px;
+		 	}
+		 	.one2 img{
+		 		width: 25px;
+		 		height: 25px;
+		 	}
+		 	.cntparent{
+		 		box-shadow: 2px 2px  7px gray, 2px 2px  6px lightblue ;
+		 	}
+		 	.canvas{
+		 		display: flex;
+		 		border:2px solid white;
+				justify-content:center;
+				align-items:center;
+				flex-direction:column;
+				flex:end;
+				min-height: 500px;
+				text-align: center;
+		 	}
+		 	.canvas2{
+		 		box-shadow: 2px 2px  7px gray, 2px 2px  6px lightblue ;
+		 		min-height: 100px;
+		 		padding: 20px;
+		 	}
+		 	@media screen and (max-width:480px){
+	.words{
+		font-size: 40px;
+	}
+}
+	
+	html{
+		scroll-behavior: smooth;
+	}
+
+
+	
+	
+	.fade-in  {
+		animation:fade-in linear both;
+		animation-timeline: view();
+		animation-range: entry 50% cover 50%;
+		
+		
+	}
+
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+
+	}
+	to{
+		opacity: 1;
+	}
+	0%{
+		opacity: 0;
+	}
+	50%{
+		
+		opacity: 1;
+		transform: translate();
+	}
+	100%{
+		opacity: 1;
+		transform: translate();
+	}
+}
+
+
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		
+		
+		<div class="row parent ">
+			<div class="row parent2 ">
+			
+			
+					<div class="col-md-12 ">
+						<div><h4 class="words word2" id="home">Hi there, my name is </h4></div>
+						<h1  class="words"> ENUJEKOR</h1>
+						<h1 class="words ">MARVELLOUS </h1>
+						
+
+						<p class="word2">and i work with<span class="span"> computer engineering</span></p>
+						 <p class="word2">and website development </p>
+					</div>
+				
+			</div>
+			</div>
+		
+		<div class="row sticky-top bg-white barcontainer">
+			<div class="col-md-12  ">
+				
+				<!-- nav starts here -->
+			<ul class="nav nav-pills nav-fill">
+  <li class="nav-item barparent">
+    <a class="nav-link bar" aria-current="page" href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link bar" href="#aboutus">About me</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link bar" href="#Contact">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link bar" href="#experience">Experience</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link bar" href="#service">Services</a>
+  </li>
+</ul>
+				<!-- nav ends here -->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 aboutparent fade-in">
+				<h1 id="aboutus" class="about "> About Me </h1>
+				<p>I’m a passionate web designer with a keen eye for aesthetics and functionality. With a foundation in both design principles and cutting-edge technologies, I strive to create visually appealing and user-friendly websites. My journey began with a deep interest in graphic design, evolving into a dynamic skill set that encompasses UI/UX design, front-end development, and a commitment to staying abreast of industry trends.</p>
+
+				<p>Over the years, I’ve honed my abilities in translating clients’ visions into tangible digital experiences. Whether crafting responsive layouts or optimizing user journeys, I approach each project with a blend of creativity and technical expertise. Proficient in HTML, CSS, and JavaScript, I thrive in transforming concepts into pixel-perfect, interactive interfaces.</p>
+
+				<p>Collaboration is at the core of my process, as I believe in working closely with clients to understand their brand identity and objectives. This collaborative approach ensures that every website I design not only reflects the client’s vision but also resonates with their target audience.</p>
+
+				<p>Constantly pushing the boundaries of design innovation, I stay updated on emerging technologies and industry best practices. My commitment to delivering high-quality, user-centric designs extends beyond aesthetics to encompass performance optimization and accessibility, ensuring a seamless experience across various devices and platforms.</p>
+
+				<p>In addition to technical skills, I bring effective communication and project management capabilities to the table. Whether working independently or as part of a team, I prioritize clear and transparent communication to foster a collaborative and efficient working environment.</p>
+
+				<p>Passionate about the intersection of art and technology, I find fulfillment in transforming ideas into visually stunning and functional digital landscapes. With a portfolio that reflects diverse projects and satisfied clients, I am excited about the prospect of bringing your web presence to life through innovative design solutions.</p>
+			</div>
+		</div>
+		<br><br><br><br>
+		<div class="row">
+			
+		</div>
+		<div class="row bg2">
+			
+			<div class="col-md-12 bgparent2 ">
+
+			<h1>Marvins Web Development</h1>
+			<p>We Give You The Very Best Service In The History Of Web Development And Web Services</p>
+				</div>
+			
+		</div>
+		<div class="row exp">
+			<div class="col ">
+				<div class="col "><h1 id="experience" > Experience</h1></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class=" wrapper">
+
+				
+				
+					<div class=" item rounded box">
+						<div><h1 class="rounded-top">knowledge</h1></div>
+						<div>
+						<ul> <li>I possess a comprehensive knowledge of programming languages,
+						including proficiency in HTML, CSS, JavaScript, and Python. </li>
+						</ul>
+						</div>
+					</div>
+
+					<div class=" item rounded box2">
+						<div><h1 class="rounded-top">full stack developer</h1></div>
+						<div>
+						<ul> <li>I learned fullstack development in less than 3 month and have surpassed 
+						my abilities to an extreme level </li>
+						</ul>
+						</div>
+					</div>
+					<div class=" item rounded box3">
+						<div><h1 class="rounded-top">schooled at moat</h1></div>
+						<div>
+						<ul> <li>I studied web development in moat academy for three month and i was able to do the best i can during the cohort </li>
+						</ul>
+						</div>
+						
+					</div>
+					<div class=" item rounded box4"> 
+					<div><h1 class="rounded-top">senior developer</h1></div>
+					<div>
+						<ul> <li>Im a highly experienced senior developer i have gone through severe training and experties </li>
+						</ul>
+						</div>
+				</div>
+					
+			</div>
+		</div>
+		<div class="row contact">
+			<div class="cnt2 cnt3"><h1 id="Contact" class="cnt2 cnt4" >Contact</h1></div>
+			<div class="col-md-6 cntparent ">
+						<div class="img2"><img src="body.jpg"></div>
+				<h1 class="cnt2">Enujekor Marvellous</h1>
+				<p class="cnt2">Thanks for visiting! Send a connection request on instagram or let's connect on twitter </p>
+				<div class="cnt2 one2"><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Foficial_marvins" class="btn btn-outline-dark"><img src="twitter.png" alt="icon of twitter" class="facebook"> twiter</a></div>
+				<div class="cnt2 one2"><a href="https://www.instagram.com/lil_marvins?igsh=MXBvaG5oaWV1ZWRmdg%3D%3D&utm_source=qr" class="btn btn-outline-danger"><img src="instagram.png" alt="icon of instagram"> instagram</a></div>
+			</div>
+		</div>
+		<div class="row canvas">
+			<div class="col-md-6 canvas2 ">
+				<h1 class="cnt4" id="service">Services</h1>
+					<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">List Of Services Available</button>
+
+				<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+				  <div class="offcanvas-header">
+				    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">services</h5>
+				    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				  </div>
+				  <div class="offcanvas-body">
+				    <p>Web Designing</p>
+				    <p>Web Development</p>
+				    <p>Student Training</p>
+				    <p>full Stack management</p>
+				    <p>senior developer management</p>
+				    <p>application building</p>
+				    <p>company sites </p>
+				    <p>Website improvements</p>
+				    <p>good customer care</p>
+				    <p>premium workers at your service</p>
+				  </div>
+				</div>
+
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				  Register For Apprenticeship
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h1 class="modal-title fs-5" id="exampleModalLabel">Registration Form</h1>
+				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				      </div>
+				      <div class="modal-body">
+				        <!-- form start -->
+				        <form class="row g-3">
+				  <div class="col-md-6">
+				    <label for="inputEmail4" class="form-label">Email</label>
+				    <input type="email" class="form-control" id="inputEmail4">
+				  </div>
+				  <div class="col-md-6">
+				    <label for="inputPassword4" class="form-label">Password</label>
+				    <input type="password" class="form-control" id="inputPassword4">
+				  </div>
+				  <div class="col-12">
+				    <label for="inputAddress" class="form-label">Address</label>
+				    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+				  </div>
+				  <div class="col-12">
+				    <label for="inputAddress2" class="form-label">Address 2</label>
+				    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+				  </div>
+				  <div class="col-md-6">
+				    <label for="inputCity" class="form-label">City</label>
+				    <input type="text" class="form-control" id="inputCity">
+				  </div>
+				  <div class="col-md-4">
+				    <label for="inputState" class="form-label">State</label>
+				    <select id="inputState" class="form-select">
+				      <option selected>Choose...</option>
+				      <option>...</option>
+				    </select>
+				  </div>
+				  <div class="col-md-2">
+				    <label for="inputZip" class="form-label">Zip</label>
+				    <input type="text" class="form-control" id="inputZip">
+				  </div>
+				  <div class="col-12">
+				    <div class="form-check">
+				      <input class="form-check-input" type="checkbox" id="gridCheck">
+				      <label class="form-check-label" for="gridCheck">
+				        Check me out
+				      </label>
+				    </div>
+				  </div>
+				  <div class="col-12">
+				    <button type="submit" class="btn btn-primary">Sign in</button>
+				  </div>
+				</form>
+
+				        <!-- form ends -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+				</div>
+			</div>
+		
+	</div>
+
+	
+	<script src="bootstrap/js/bootstrap.bundle.js" type="text/javascript">
+		
+	</script>
+</body>
+</html>

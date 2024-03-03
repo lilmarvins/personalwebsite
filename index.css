@@ -1,0 +1,235 @@
+*{	padding: 0px;
+			margin: 0px;
+			box-sizing: border-box;
+			
+		
+			
+	}
+	body{
+		background-color: whitesmoke;
+	}
+	.parent{background-image:url("banner.jpg");
+		 background-attachment: fixed;
+		 background-repeat: cover;
+		 min-height: 600px;
+		
+		 
+		 	}
+		 	.parent2{
+		 		background-color: rgba(0, 0, 0, 0.5);
+		 		 
+		 	}
+		 	img{
+		 		height: 100%;
+		 	}
+		 	
+		 	
+		 	.words{	color: whitesmoke;
+		 		text-align: center;
+		 		font-size: 90px;
+		 		font-family: Courier New monospace;
+		 		font-weight: bold;
+		 	}
+		 	.word2{
+		 		font-size: 25px;
+		 		text-align: center;
+		 	color:#276FBF;
+		 		font-family: Courier New monospace;
+		 		font-weight: bold;
+
+		 	}
+		 	p{
+		 		
+		 	}
+		 	.span{
+		 		color:whitesmoke;
+
+		 	}
+		 	.bar{
+		 		color: black;
+		 		font-weight: bolder;
+		 		font-size: 20px;
+		 		padding: 20px;
+		 	}
+		 	.barparent{
+		 		min-height: 60px;
+		 		
+		 	}
+		 	.barcontainer{
+		 		box-shadow: 2px 2px 7px lightgray, 2px 2px 6px lightblue ;
+		 	}
+		 	.about{
+		 		font-family: arial;
+		 		text-align: center;
+		 		padding: 60px;
+		 		font-size: 70px;
+		 	}
+		 	.aboutparent{
+		 		text-align: center;
+		 	}
+		 	.bg2{
+		 		background-image:url("circle.jpg");
+		 background-attachment: fixed;
+		 background-repeat: cover;
+		 min-height: 600px;
+		 	}
+		 	.bgparent2{
+		 		background-color: rgba(0, 0, 0, 0.5);
+		 	}
+		 	.bgparent2 h1 {
+		 		color: whitesmoke;
+		 		text-align: center;
+		 		position: relative;
+		 		top:180px;
+		 		font-size: 50px;
+		 	}
+		 	.bgparent2 p {
+		 		color: whitesmoke;
+		 		text-align: center;
+		 		position: relative;
+		 		top:200px;
+		 		font-size: 20px;
+		 	}
+		 	.wrapper{
+		 		min-height: 400px;
+		 		
+		 		overflow-x:auto !important;
+		 		display: flex;
+		 	}
+		 	.wrapper::-webkit-scrollbar{
+		 		width: 0;
+		 		height: 0px;
+		 	}
+		 	.wrapper .item{
+		 		min-width:500px ;
+		 		height: 500px;
+		 		line-height: 110px;
+		 		text-align: center;
+		 		background-color: whitesmoke;
+		 		margin-right: 30px ;
+		 		margin: 10px;
+		 		box-shadow: 2px 2px  7px gray, 2px 2px  6px lightblue ;
+		 		
+		 	}
+		 	.wrapper .item:hover{
+		 		border:2px solid blue;
+		color:black;
+		background-color: rgba(0, 0, 0, 0.5);
+		cursor: pointer;
+		
+		 	}
+
+
+
+
+		 		 
+		 	}
+		 	.box h1{
+		 		font-family:Courier New monospace ;
+		 		color: whitesmoke;
+		 		background-color: #7DBA84;
+		 		min-height: 100px;
+		 	}
+		 	.box2 h1{
+		 		font-family:Courier New monospace ;
+		 		color: whitesmoke;
+		 		background-color: #5B2A86;
+		 		min-height: 100px;
+		 	}
+		 	.box3 h1{
+		 		font-family:Courier New monospace ;
+		 		color: whitesmoke;
+		 		background-color: #EF3054;
+		 		min-height: 100px;
+		 	}
+		 	.box4 h1{
+		 		font-family:Courier New monospace ;
+		 		color: whitesmoke;
+		 		background-color: #6B0504;
+		 		min-height: 100px;}
+		 	.box3 p{
+		 			padding:0px;
+		 			margin: 0px;
+		 		}
+		 	.exp{
+		 			padding: 20px;
+		 			text-align: center;
+		 		}
+		 	.stripe{
+		 		padding: 30px;
+		 	}
+		 	.contact{
+		 		display: flex;
+		 		border:2px solid white;
+				justify-content:center;
+				align-items:center;
+				flex-direction:column;
+				flex:end;
+				min-height: 1000px;
+				text-align: center;
+
+		 	}
+		 	.cnt2{
+		 		font-family:Courier New monospace;
+		 		padding: 30px;
+
+		 	}
+		 	.contact img{
+		 		width:150px;
+		 		height: 150px;
+		 		border-radius: 100px;
+		 		
+		 	}
+		 	.cnt3{
+		 		min-height: 200px;
+		 		margin-top: -100px;
+		 	}
+		 	.cnt4{
+		 		font-family:Courier New monospace;
+		 		font-weight: bold;
+		 		font-size: 50px;
+		 	}
+		 	.contact .img2{
+		 		margin-top: -70px;
+		 	}
+		 	.one2 img{
+		 		width: 25px;
+		 		height: 25px;
+		 	}
+		 	.cntparent{
+		 		box-shadow: 2px 2px  7px gray, 2px 2px  6px lightblue ;
+		 	}
+		 	.canvas{
+		 		display: flex;
+		 		border:2px solid white;
+				justify-content:center;
+				align-items:center;
+				flex-direction:column;
+				flex:end;
+				min-height: 500px;
+				text-align: center;
+		 	}
+		 	.canvas2{
+		 		box-shadow: 2px 2px  7px gray, 2px 2px  6px lightblue ;
+		 		min-height: 100px;
+		 		padding: 20px;
+		 	}
+		 	@media screen and (max-width:480px)
+	.words{
+		font-size: 40px;
+	}
+
+	
+	.cntparent > img {
+		animation: :fade-in linear;
+		animation-timeline: view (100px 500px);
+	}
+	@keyframes fade-in{
+		from{
+			scale: .8; 
+			opacity: 0;
+		}
+		to{
+			scale: 1; opacity: 1;
+		}
+	}
